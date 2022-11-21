@@ -4,7 +4,7 @@ public class practise {
 
 	public static void main(String[] args) {
 		int c=930;
-		
+		int x=1130;
 		int mins=practise.hoursToMinutes(c);
 		System.out.println(mins);
 	}
@@ -14,7 +14,8 @@ public class practise {
 	public static int hoursToMinutes(int num) {
 		
 		String time=Integer.toString(num);
-		
+		 System.out.println("=================");
+
 		String minString=time.substring(2);
 	
 		System.out.println(minString);
@@ -22,7 +23,7 @@ public class practise {
 		int min =Integer.parseInt(minString);
 		 System.out.println(min);
  String hrsString=time.substring(0,1);
- System.out.println("+++++++++++");
+ System.out.println("=================");
  System.out.println(hrsString);
  int hours=Integer.parseInt(hrsString);
 		
