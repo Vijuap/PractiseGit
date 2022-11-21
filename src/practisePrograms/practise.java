@@ -19,7 +19,8 @@ public class practise {
 		String minString=time.substring(2);
 	
 		System.out.println(minString);
-		
+		System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$");
+
 		int min =Integer.parseInt(minString);
 		 System.out.println(min);
  String hrsString=time.substring(0,1);
